@@ -30,6 +30,6 @@
 
 **5. Security, Onboarding, and Compliance**
 * **BYOK (Bring Your Own Key) Architecture:** Users supply their own API keys, reducing the platform's status to a data visualizer rather than a commercial vendor.
-* **Zero-Knowledge Storage:** API keys are held exclusively in the client's `sessionStorage` or an encrypted vault, ensuring the backend never holds plaintext custody of user funds.
+* **Client-Side Key Handling (Zero-Knowledge w.r.t. Backend):** API keys are managed exclusively on the client and are never persisted in plaintext on the backend. For convenience, users may opt to keep keys in browser `sessionStorage`, but this is only appropriate in threat models that explicitly assume no XSS or malicious scripts, since any script running in the page can read `sessionStorage`. For stronger security, the recommended configuration is to use an encrypted, non-extractable key store (e.g., a dedicated encrypted vault or similar mechanism) so that even if the application is compromised, the raw API keys are not trivially accessible.
 * **Frictionless Onboarding:** A built-in, browser-based RSA key generator to guide non-technical users through Kalshi's complex API setup without requiring command-line tools.
 * **Strict Geofencing:** Hardcoded IP blocks for Washington State and Nevada to prevent live trading access within prohibited jurisdictions.
