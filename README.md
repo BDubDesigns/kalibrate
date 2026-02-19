@@ -1,5 +1,6 @@
-### **Project Specification: Kalibrate - A Kalshi (and eventually others) Trading Terminal**
+# Kalibrate - A Kalshi (and eventually others) Trading Terminal
 
+## Project Specification
 **Project Category:** Business/Startup & Portfolio/Learning
 
 **1. Executive Summary & Business Strategy**
