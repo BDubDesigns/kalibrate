@@ -5,7 +5,7 @@
 
 **1. Executive Summary & Business Strategy**
 * **Target Audience:** The professional retail trader who approaches prediction markets with derivative-trading discipline.
-* **Business Model:** A "freemium" platform where highly realistic paper trading acts as a free acquisition channel to build a user base. 
+* **Business Model:** A "freemium" platform where highly realistic paper trading acts as a free acquisition channel to build a user base.
 * **Monetization:** Premium tiers unlock live execution via API, advanced algorithmic signals, AI-driven trade analysis, and server-side automation.
 * **Operational Jurisdiction:** Business operations, hosting, and live deployment will be managed in Mexico to strictly comply with the Washington State prohibition on prediction market infrastructure.
 
